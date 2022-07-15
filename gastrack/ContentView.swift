@@ -9,11 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView{
+            FuelLogView()
+                .tabItem{
+                    Image(systemName: "fuelpump")
+                    Text("Fuel")
+                }
+            ServiceLogView()
+                .tabItem{
+                    Image(systemName: "wrench.and.screwdriver")
+                    Text("Service")
+                }
         }
     }
 }

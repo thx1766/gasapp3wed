@@ -3,44 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5700802A285CCDAC00188CC0 /* FuelLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57008029285CCDAC00188CC0 /* FuelLogView.swift */; };
-		5700802C285CCDBA00188CC0 /* ServiceLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700802B285CCDBA00188CC0 /* ServiceLogView.swift */; };
-		5700802E285CDA3100188CC0 /* NewFuelEntryModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700802D285CDA3100188CC0 /* NewFuelEntryModal.swift */; };
-		57008030285CDB3A00188CC0 /* NewServiceEntryModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700802F285CDB3A00188CC0 /* NewServiceEntryModal.swift */; };
-		57008032285CDC4200188CC0 /* ServiceLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57008031285CDC4200188CC0 /* ServiceLogItem.swift */; };
-		5746539928583F9600404D88 /* gastrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746539828583F9600404D88 /* gastrackApp.swift */; };
-		5746539B28583F9600404D88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746539A28583F9600404D88 /* ContentView.swift */; };
-		5746539D28583F9700404D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5746539C28583F9700404D88 /* Assets.xcassets */; };
-		574653A028583F9700404D88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5746539F28583F9700404D88 /* Preview Assets.xcassets */; };
-		574653A72858403300404D88 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574653A62858403300404D88 /* HomeView.swift */; };
-		574653A92858455800404D88 /* FuelLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574653A82858455800404D88 /* FuelLogItem.swift */; };
-		574653AB285852ED00404D88 /* fuelLogItemEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574653AA285852ED00404D88 /* fuelLogItemEntry.swift */; };
-		57DC90F7285D796300EF54A3 /* NewEntryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC90F6285D796300EF54A3 /* NewEntryButtonStyle.swift */; };
+		5700801C285A57FE00188CC0 /* EntertaimentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700801B285A57FE00188CC0 /* EntertaimentDetailView.swift */; };
+		5700801E285A5A2E00188CC0 /* TransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700801D285A5A2E00188CC0 /* TransportView.swift */; };
+		57008020285A5A3900188CC0 /* GuestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700801F285A5A3900188CC0 /* GuestsView.swift */; };
+		57008025285BAD8C00188CC0 /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57008024285BAD8C00188CC0 /* AttendanceView.swift */; };
+		57008028285BB3B800188CC0 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57008027285BB3B800188CC0 /* ButtonStyle.swift */; };
+		57F9BDA328563B5B00E64D72 /* weddingappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9BDA228563B5B00E64D72 /* weddingappApp.swift */; };
+		57F9BDA528563B5B00E64D72 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9BDA428563B5B00E64D72 /* PracticeView.swift */; };
+		57F9BDA728563B5B00E64D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F9BDA628563B5B00E64D72 /* Assets.xcassets */; };
+		57F9BDAA28563B5B00E64D72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F9BDA928563B5B00E64D72 /* Preview Assets.xcassets */; };
+		57F9BDB128564D1900E64D72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9BDB028564D1900E64D72 /* HomeView.swift */; };
+		57F9BDB32856514500E64D72 /* EntertainmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9BDB22856514500E64D72 /* EntertainmentRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57008029285CCDAC00188CC0 /* FuelLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelLogView.swift; sourceTree = "<group>"; };
-		5700802B285CCDBA00188CC0 /* ServiceLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLogView.swift; sourceTree = "<group>"; };
-		5700802D285CDA3100188CC0 /* NewFuelEntryModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFuelEntryModal.swift; sourceTree = "<group>"; };
-		5700802F285CDB3A00188CC0 /* NewServiceEntryModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServiceEntryModal.swift; sourceTree = "<group>"; };
-		57008031285CDC4200188CC0 /* ServiceLogItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLogItem.swift; sourceTree = "<group>"; };
-		5746539528583F9600404D88 /* gastrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gastrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5746539828583F9600404D88 /* gastrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gastrackApp.swift; sourceTree = "<group>"; };
-		5746539A28583F9600404D88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5746539C28583F9700404D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5746539F28583F9700404D88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		574653A62858403300404D88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		574653A82858455800404D88 /* FuelLogItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelLogItem.swift; sourceTree = "<group>"; };
-		574653AA285852ED00404D88 /* fuelLogItemEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuelLogItemEntry.swift; sourceTree = "<group>"; };
-		57DC90F6285D796300EF54A3 /* NewEntryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryButtonStyle.swift; sourceTree = "<group>"; };
+		5700801B285A57FE00188CC0 /* EntertaimentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertaimentDetailView.swift; sourceTree = "<group>"; };
+		5700801D285A5A2E00188CC0 /* TransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportView.swift; sourceTree = "<group>"; };
+		5700801F285A5A3900188CC0 /* GuestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsView.swift; sourceTree = "<group>"; };
+		57008024285BAD8C00188CC0 /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
+		57008027285BB3B800188CC0 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		57F9BD9F28563B5B00E64D72 /* weddingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weddingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F9BDA228563B5B00E64D72 /* weddingappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weddingappApp.swift; sourceTree = "<group>"; };
+		57F9BDA428563B5B00E64D72 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		57F9BDA628563B5B00E64D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F9BDA928563B5B00E64D72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57F9BDB028564D1900E64D72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		57F9BDB22856514500E64D72 /* EntertainmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5746539228583F9600404D88 /* Frameworks */ = {
+		57F9BD9C28563B5B00E64D72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,46 +46,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5746538C28583F9500404D88 = {
+		57008021285A5A4B00188CC0 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				5746539728583F9600404D88 /* gastrack */,
-				5746539628583F9600404D88 /* Products */,
+				57F9BDB028564D1900E64D72 /* HomeView.swift */,
+				5700801F285A5A3900188CC0 /* GuestsView.swift */,
+				5700801D285A5A2E00188CC0 /* TransportView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		57008026285BB39200188CC0 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				57008027285BB3B800188CC0 /* ButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		57F9BD9628563B5B00E64D72 = {
+			isa = PBXGroup;
+			children = (
+				57F9BDA128563B5B00E64D72 /* weddingapp */,
+				57F9BDA028563B5B00E64D72 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5746539628583F9600404D88 /* Products */ = {
+		57F9BDA028563B5B00E64D72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5746539528583F9600404D88 /* gastrack.app */,
+				57F9BD9F28563B5B00E64D72 /* weddingapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5746539728583F9600404D88 /* gastrack */ = {
+		57F9BDA128563B5B00E64D72 /* weddingapp */ = {
 			isa = PBXGroup;
 			children = (
-				5746539828583F9600404D88 /* gastrackApp.swift */,
-				5746539A28583F9600404D88 /* ContentView.swift */,
-				57008029285CCDAC00188CC0 /* FuelLogView.swift */,
-				574653A82858455800404D88 /* FuelLogItem.swift */,
-				5700802D285CDA3100188CC0 /* NewFuelEntryModal.swift */,
-				5700802B285CCDBA00188CC0 /* ServiceLogView.swift */,
-				57008031285CDC4200188CC0 /* ServiceLogItem.swift */,
-				5700802F285CDB3A00188CC0 /* NewServiceEntryModal.swift */,
-				57DC90F6285D796300EF54A3 /* NewEntryButtonStyle.swift */,
-				5746539C28583F9700404D88 /* Assets.xcassets */,
-				5746539E28583F9700404D88 /* Preview Content */,
-				574653AA285852ED00404D88 /* fuelLogItemEntry.swift */,
-				574653A62858403300404D88 /* HomeView.swift */,
+				57008026285BB39200188CC0 /* Styles */,
+				57F9BDA228563B5B00E64D72 /* weddingappApp.swift */,
+				57008024285BAD8C00188CC0 /* AttendanceView.swift */,
+				57008021285A5A4B00188CC0 /* Tabs */,
+				5700801B285A57FE00188CC0 /* EntertaimentDetailView.swift */,
+				57F9BDB22856514500E64D72 /* EntertainmentRow.swift */,
+				57F9BDA428563B5B00E64D72 /* PracticeView.swift */,
+				57F9BDA628563B5B00E64D72 /* Assets.xcassets */,
+				57F9BDA828563B5B00E64D72 /* Preview Content */,
 			);
-			path = gastrack;
+			path = weddingapp;
 			sourceTree = "<group>";
 		};
-		5746539E28583F9700404D88 /* Preview Content */ = {
+		57F9BDA828563B5B00E64D72 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5746539F28583F9700404D88 /* Preview Assets.xcassets */,
+				57F9BDA928563B5B00E64D72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -97,91 +107,89 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5746539428583F9600404D88 /* gastrack */ = {
+		57F9BD9E28563B5B00E64D72 /* weddingapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 574653A328583F9700404D88 /* Build configuration list for PBXNativeTarget "gastrack" */;
+			buildConfigurationList = 57F9BDAD28563B5B00E64D72 /* Build configuration list for PBXNativeTarget "weddingapp" */;
 			buildPhases = (
-				5746539128583F9600404D88 /* Sources */,
-				5746539228583F9600404D88 /* Frameworks */,
-				5746539328583F9600404D88 /* Resources */,
+				57F9BD9B28563B5B00E64D72 /* Sources */,
+				57F9BD9C28563B5B00E64D72 /* Frameworks */,
+				57F9BD9D28563B5B00E64D72 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = gastrack;
-			productName = gastrack;
-			productReference = 5746539528583F9600404D88 /* gastrack.app */;
+			name = weddingapp;
+			productName = weddingapp;
+			productReference = 57F9BD9F28563B5B00E64D72 /* weddingapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5746538D28583F9600404D88 /* Project object */ = {
+		57F9BD9728563B5B00E64D72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					5746539428583F9600404D88 = {
-						CreatedOnToolsVersion = 14.0;
+					57F9BD9E28563B5B00E64D72 = {
+						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = 5746539028583F9600404D88 /* Build configuration list for PBXProject "gastrack" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 57F9BD9A28563B5B00E64D72 /* Build configuration list for PBXProject "weddingapp" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5746538C28583F9500404D88;
-			productRefGroup = 5746539628583F9600404D88 /* Products */;
+			mainGroup = 57F9BD9628563B5B00E64D72;
+			productRefGroup = 57F9BDA028563B5B00E64D72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5746539428583F9600404D88 /* gastrack */,
+				57F9BD9E28563B5B00E64D72 /* weddingapp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5746539328583F9600404D88 /* Resources */ = {
+		57F9BD9D28563B5B00E64D72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574653A028583F9700404D88 /* Preview Assets.xcassets in Resources */,
-				5746539D28583F9700404D88 /* Assets.xcassets in Resources */,
+				57F9BDAA28563B5B00E64D72 /* Preview Assets.xcassets in Resources */,
+				57F9BDA728563B5B00E64D72 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5746539128583F9600404D88 /* Sources */ = {
+		57F9BD9B28563B5B00E64D72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57008030285CDB3A00188CC0 /* NewServiceEntryModal.swift in Sources */,
-				574653A72858403300404D88 /* HomeView.swift in Sources */,
-				5700802A285CCDAC00188CC0 /* FuelLogView.swift in Sources */,
-				574653A92858455800404D88 /* FuelLogItem.swift in Sources */,
-				5746539B28583F9600404D88 /* ContentView.swift in Sources */,
-				574653AB285852ED00404D88 /* fuelLogItemEntry.swift in Sources */,
-				5746539928583F9600404D88 /* gastrackApp.swift in Sources */,
-				57DC90F7285D796300EF54A3 /* NewEntryButtonStyle.swift in Sources */,
-				5700802C285CCDBA00188CC0 /* ServiceLogView.swift in Sources */,
-				5700802E285CDA3100188CC0 /* NewFuelEntryModal.swift in Sources */,
-				57008032285CDC4200188CC0 /* ServiceLogItem.swift in Sources */,
+				57008020285A5A3900188CC0 /* GuestsView.swift in Sources */,
+				57008025285BAD8C00188CC0 /* AttendanceView.swift in Sources */,
+				57F9BDB128564D1900E64D72 /* HomeView.swift in Sources */,
+				57F9BDA528563B5B00E64D72 /* PracticeView.swift in Sources */,
+				5700801C285A57FE00188CC0 /* EntertaimentDetailView.swift in Sources */,
+				57F9BDA328563B5B00E64D72 /* weddingappApp.swift in Sources */,
+				57008028285BB3B800188CC0 /* ButtonStyle.swift in Sources */,
+				5700801E285A5A2E00188CC0 /* TransportView.swift in Sources */,
+				57F9BDB32856514500E64D72 /* EntertainmentRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		574653A128583F9700404D88 /* Debug */ = {
+		57F9BDAB28563B5B00E64D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -241,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		574653A228583F9700404D88 /* Release */ = {
+		57F9BDAC28563B5B00E64D72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,15 +303,14 @@
 			};
 			name = Release;
 		};
-		574653A428583F9700404D88 /* Debug */ = {
+		57F9BDAE28563B5B00E64D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"gastrack/Preview Content\"";
-				DEVELOPMENT_TEAM = 4C4FN7PLAL;
+				DEVELOPMENT_ASSET_PATHS = "\"weddingapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,13 +318,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.xmat.gastrack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schdom.weddingapp.weddingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,15 +331,14 @@
 			};
 			name = Debug;
 		};
-		574653A528583F9700404D88 /* Release */ = {
+		57F9BDAF28563B5B00E64D72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"gastrack/Preview Content\"";
-				DEVELOPMENT_TEAM = 4C4FN7PLAL;
+				DEVELOPMENT_ASSET_PATHS = "\"weddingapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -341,13 +346,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.xmat.gastrack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schdom.weddingapp.weddingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,25 +362,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5746539028583F9600404D88 /* Build configuration list for PBXProject "gastrack" */ = {
+		57F9BD9A28563B5B00E64D72 /* Build configuration list for PBXProject "weddingapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574653A128583F9700404D88 /* Debug */,
-				574653A228583F9700404D88 /* Release */,
+				57F9BDAB28563B5B00E64D72 /* Debug */,
+				57F9BDAC28563B5B00E64D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		574653A328583F9700404D88 /* Build configuration list for PBXNativeTarget "gastrack" */ = {
+		57F9BDAD28563B5B00E64D72 /* Build configuration list for PBXNativeTarget "weddingapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574653A428583F9700404D88 /* Debug */,
-				574653A528583F9700404D88 /* Release */,
+				57F9BDAE28563B5B00E64D72 /* Debug */,
+				57F9BDAF28563B5B00E64D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5746538D28583F9600404D88 /* Project object */;
+	rootObject = 57F9BD9728563B5B00E64D72 /* Project object */;
 }
